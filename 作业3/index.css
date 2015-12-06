@@ -1,0 +1,204 @@
+body {
+	margin: 0;
+	padding:0;
+	font-family: Arial, sans-serif;
+}
+li {
+	list-style: none;
+}
+div#bottom-positioner {
+	margin:450px auto 0 auto;
+	position: relative;  
+}
+div#button {
+    margin:0 auto;
+    width:32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+/*放置图标的位置32*32*/
+div.icon {
+	position: absolute;
+	width: 32px;
+	height: 32px;
+	margin-top: -16px;
+	background-image: url("assets/images/atplus_white.png");
+	background-color: rgb(159,159,198);
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 50%;
+    transition: all 0.7s ease 0.5s;
+    -moz-transition: all 0.7s ease 0.5s; /* Firefox 4 */
+    -webkit-transition: all 0.7s ease 0.5s; /* Safari 和 Chrome */
+    -o-transition: all 0.7s ease 0.5s;/* Opera */
+}
+
+div.info {
+    opacity:0;  /*开始设置为不可视*/
+    background-color: rgb(125,125,125);
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    margin-left: -16px;
+    transition: all 0.7s ease 0.5s;
+    -moz-transition: all 0.7s ease 0.5s; /* Firefox 4 */
+    -webkit-transition: all 0.7s ease 0.5s; /* Safari 和 Chrome */
+    -o-transition: all 0.7s ease 0.5s;/* Opera */
+    z-index: -98;
+    font-weight: bolder;
+}
+
+/*ul li*/
+.page {
+	margin: 0 auto 0px auto;
+}
+.user span, .mine span {
+	padding-left: 10px;
+	font-size: 20px;
+	vertical-align: 30%;
+}
+.comment span {
+	padding-left: 10px;
+	font-size: 32px;
+	vertical-align: 20%;
+}
+.info li img {
+	 width:1.3em;
+	 font-size: 21px;
+}
+.user {
+	font-size: 20px;
+	color: white;
+	margin-left: 10px;
+}
+.comment {
+	font-weight: bold;
+	color: white;
+	font-size: 33px;
+}
+.mine {
+	font-size: 20px;
+	color: rgb(73, 207, 147);
+	font-weight: bold;
+}
+.posted {
+    float: left;
+    margin-left: -16px;
+    margin-right: 14px;
+}
+.like img {
+	vertical-align: baseline;
+}
+
+/*class.botton 是共用的属性
+ *            不是id#botton*/
+.button {
+	background-color: rgb(125,125,125);
+	width: 42px;
+	height: 42px;
+	background-repeat: no-repeat;
+	background-position: 10px 10px;
+	border-radius: 50%;
+	position: absolute;
+	left: 50%;
+	margin-left: -21px;
+	margin-top: -20px;
+	opacity: 0;
+	z-index: -98;
+}
+.mask {
+	background-image: url("assets/images/nomask.png");
+    transition: all 0.7s ease 0.5s;
+    -moz-transition: all 0.7s ease 0.5s; /* Firefox 4 */
+    -webkit-transition: all 0.7s ease 0.5s; /* Safari 和 Chrome */
+    -o-transition: all 0.7s ease 0.5s;/* Opera */
+}
+.history {
+    background-image: url("assets/images/history.png");
+    transition: all 0.7s ease 0.5s;
+    -moz-transition: all 0.7s ease 0.5s; /* Firefox 4 */
+    -webkit-transition: all 0.7s ease 0.5s; /* Safari 和 Chrome */
+    -o-transition: all 0.7s ease 0.5s;/* Opera */
+} 
+.message {
+    background-image: url("assets/images/message.png");
+    transition: all 0.7s ease 0.5s;
+    -moz-transition: all 0.7s ease 0.5s; /* Firefox 4 */
+    -webkit-transition: all 0.7s ease 0.5s; /* Safari 和 Chrome */
+    -o-transition: all 0.7s ease 0.5s;/* Opera */
+}
+.message span {
+	display: block;
+	font-weight: bold;
+	font-size: 15px;
+	color: white;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	border-radius: 50%;
+	background-color: red;
+	text-align: center;
+	left: 25px;
+	top:-5px;
+}
+.setting {
+    background-image: url("assets/images/setting.png");
+    transition: all 0.7s ease 0.5s;
+    -moz-transition: all 0.7s ease 0.5s; /* Firefox 4 */
+    -webkit-transition: all 0.7s ease 0.5s; /* Safari 和 Chrome */
+    -o-transition: all 0.7s ease 0.5s;/* Opera */
+}
+.sign {
+    background-image: url("assets/images/signin.png");
+    transition: all 0.7s ease 0.5s;
+    -moz-transition: all 0.7s ease 0.5s; /* Firefox 4 */
+    -webkit-transition: all 0.7s ease 0.5s; /* Safari 和 Chrome */
+    -o-transition: all 0.7s ease 0.5s;/* Opera */
+}
+
+#button:hover .icon {
+	background-color: rgba(48, 63, 159, 1);
+	background-image: url("assets/images/atplus_green.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 60px;
+	width: 60px;
+	border-radius: 50%;
+	margin-left: -15px;
+	margin-top: -30px;
+	background-size: 40px 28.5px;
+}
+
+#button:hover .info {
+	opacity: 1;
+	height: 150px;
+	width: 150px;
+	top:-190px;
+	left: 50%;
+	margin-left: -75px;
+}
+#button:hover .mask {
+	opacity: 1;
+	transform: translate(-78px, -42px);
+}
+#button:hover .history {
+	opacity: 1;
+	transform: translate(-95px, 5px);
+}
+#button:hover .message {
+	opacity: 1;
+	transform: translate(-75px, 51px);
+}
+#button:hover .setting {
+	opacity: 1;
+	transform: translate(-28px, 77px);
+}
+#button:hover .sign {
+	opacity: 1;
+	transform: translate(32px, 72px);
+}

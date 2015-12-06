@@ -1,0 +1,195 @@
+/*basic sets*/
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: "Century Gothic";
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+#title,#slider{
+	text-align: center;
+	margin: 0 auto;
+	width: 100px;
+}
+#slider button {
+    width: 100px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    background: #4A83EF;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+#slider button:active {
+	background-color: blue;
+}
+#slider button:hover {
+	transform: scale(1.03,1.03);}
+#game_box {
+	width: 400px;
+	height: 400px;
+	margin: 0 auto;
+}
+#game_box div {
+	background-image: url("background.png");
+	float: left;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	width: 98px;
+    height: 98px;
+	border: 1px solid white;
+	transition: all 0.3s;
+}
+#game_box div:active {
+	transform: scale(1.03,1.03);
+}
+#game_box div:hover {
+	transform: scale(1.03,1.03);
+}
+
+/*4row 4col use to position*/
+div.row_1 {
+    background-position-y: 0;
+}
+div.row_2 {
+    background-position-y: 25%;
+}
+div.row_3 {
+    background-position-y: 50%;
+}
+div.row_4 {
+    background-position-y: 75%;
+}
+div.col_1 {
+    background-position-x: 0;
+}
+div.col_2 {
+    background-position-x: 25%;
+}
+div.col_3 {
+    background-position-x: 50%;
+}
+div.col_4 {
+    background-position-x: 75%;
+}
+
+/*16 unique ids for every block, for moving*/
+#b1 {
+    position: absolute;
+    top: 71px;
+    left: 475px;
+}
+#b2 {
+    position: absolute;
+    top: 71px;
+    left: 575px;
+}
+#b3 {
+    position: absolute;
+    top: 71px;
+    left: 675px;
+}
+#b4 {
+    position: absolute;
+    top: 71px;
+    left: 775px;
+}
+#b5 {
+    position: absolute;
+    top: 171px;
+    left: 475px;
+}
+#b6 {
+    position: absolute;
+    top: 171px;
+    left: 575px;
+}
+#b7 {
+    position: absolute;
+    top: 171px;
+    left: 675px;
+}
+#b8 {
+    position: absolute;
+    top: 171px;
+    left: 775px;
+}
+#b9 {
+    position: absolute;
+    top: 271px;
+    left: 475px;
+}
+#b10 {
+    position: absolute;
+    top: 271px;
+    left: 575px;
+}
+#b11 {
+    position: absolute;
+    top: 271px;
+    left: 675px;
+}
+#b12 {
+	position: absolute;
+    top: 271px;
+    left: 775px;
+}
+#b13 {
+	position: absolute;
+    top: 371px;
+    left: 475px;
+}
+#b14 {
+	position: absolute;
+    top: 371px;
+    left: 575px;
+}
+#b15 {
+	position: absolute;
+    top: 371px;
+    left: 675px;
+}
+#b16 {
+	position: absolute;
+    top: 371px;
+    left: 775px;
+}
+#tips {
+	float: left;
+	width: 30%;
+	height: 404px;
+	text-align: center;
+	overflow: hidden;
+}
+#tips img {
+	width: 200px;
+	height: 200px;
+	border: 1px solid black;
+}
+#times_and_steps {
+	position: absolute;
+    left: 954px;
+    top: 69px;
+	width: 30%;
+	height: 404px;
+	text-align: center;
+	font-weight: bold;
+	padding-top: 50px;
+	font-size: 22px;
+	line-height: 22px;
+}
+
+#time_num, #step_num {
+	margin-top: 30px;
+	margin-left: 10px;
+	display: inline-block;
+	width: 100px;
+	height: 20px;
+	border: 1px solid black;
+}
+

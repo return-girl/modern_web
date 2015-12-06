@@ -1,0 +1,146 @@
+/*basic setting*/
+html, body{
+	padding: 0;
+	margin: 0;
+	font-family: "Century Gothic";
+	font-size: 22px;
+}
+
+
+/*top of the game_window*/
+div.content {
+	text-align: center;
+}
+#first_sen {
+	font-weight: normal;
+	font-size: 28px;
+}
+
+
+/*game_window settings*/
+#game_window {
+	width: 480px;
+	height: 300px;
+	margin:0 auto;
+	padding: 0;
+}
+
+div.content p {
+	text-align: center;
+	height: 20px;
+}
+#block_top {
+    margin: 0px;
+    padding: 0px;
+    height: 18%;
+    border-style: solid solid none solid;
+    border-width: 1px;
+}
+div.wall_1 {
+	background: #EDEDED;
+	transition: all 0.3s;
+}
+div.wall_2 {
+	background: red;
+	transition: all 0.3s;
+}
+
+div.block_center {
+	height: 65%;
+}
+div.center_left {
+	width: 30%;
+	height: 100%;
+	float: left;
+}
+#center_left_up, #center_right_up {
+	width: 100%;
+	height: 75%;
+	border-style: none solid solid solid;
+	border-width: 1px;
+	overflow: hidden;
+}
+#center_left_down, #center_right_down {
+	width: 100%;
+	height: 25%;
+	cursor: pointer;
+}
+div.center_center {
+	width: 40%;
+	height: 100%;
+	float: left;
+	border-width: 1px;
+	border-top-style: solid;
+	cursor: pointer;
+}
+#middle_block {
+	width: 50%;
+	height: 77%;
+	margin:45px auto 0 auto;
+	border-style: solid solid none solid;
+	border-width: 1px;
+	cursor: default;
+}
+div.center_right {
+    width: 29.6%;
+    float: left;
+    height: 100%;
+}
+#prevent_cheating {
+	float: left;
+	margin-left: 90px;
+    width: 10px;
+    height: 48px;
+}
+
+#block_s, #block_e {
+	width: 40px;
+	height: 40px;
+	border: 1px solid black;
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+#block_s {
+	background-color:#8FFF88;
+}
+#block_e {
+	background-color:#8880F9;
+	float: right;
+	margin-right: -3px;
+}
+
+#block_bottom {
+	height: 17%;
+	width: 100%;
+	border-width: 1px;
+	border-style: solid;
+}
+
+/*bottom of the game_window*/
+div.bottom_text p.game_explain {
+	font-size: 16px;
+}
+div.bottom_text {
+	width: 600px;
+	height: 100px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+#wall {
+	width: 100px;
+	height: 28px;
+	border: 1px solid black;
+	margin: 0 auto;
+	background: #EDEDED;
+}
+
+.red_block {
+	background: red;
+}
+.grey_block {
+	background: #EDEDED;
+}

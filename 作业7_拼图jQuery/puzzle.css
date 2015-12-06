@@ -1,0 +1,117 @@
+/*basic sets*/
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: "Century Gothic";
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+#title,#slider{
+	text-align: center;
+	margin: 0 auto;
+	width: 500px;
+}
+
+/*the middle gamebox settings*/
+#left_box {
+    position: absolute;
+    width: 300px;
+    height: 450px;
+    top: 100px;
+    left: 0px;
+    text-align: center;
+}
+#left_box img {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
+#right_box {
+    position: absolute;
+    width: 300px;
+    height: 450px;
+    top: 100px;
+    right: 0px;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 22px;
+    text-align: center;
+}
+
+#time_num, #step_num {
+    margin-top: 30px;
+    margin-left: 10px;
+    display: inline-block;
+    width: 100px;
+    height: 20px;
+    border: 1px solid black;
+}
+
+#middle_box {
+    margin: 50px 300px 0 300px;
+    height: 450px;
+}
+#help_be_center {
+    margin: 0 auto;
+    width: 400px;
+    height: 400px;
+}
+
+#game_box {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+}
+.puzzle-piece:hover,  .puzzle-piece:active{
+	transform: scale(1.03,1.03);
+}
+
+/*4row 4col use top and left to position*/
+#id0 { left: 0; top: 0; }
+#id1 { left: 25%; top: 0; }
+#id2 { left: 50%; top: 0; }
+#id3 { left: 75%; top: 0; }
+#id4 { left: 0; top: 25%; }
+#id5 { left: 25%; top: 25%; }
+#id6 { left: 50%; top: 25%; }
+#id7 { left: 75%; top: 25%; }
+#id8 { left: 0; top: 50%; }
+#id9 { left: 25%; top: 50%; }
+#id10 { left: 50%; top: 50%; }
+#id11 { left: 75%; top: 50%; }
+#id12 { left: 0; top: 75%; }
+#id13 { left: 25%; top: 75%; }
+#id14 { left: 50%; top: 75%; }
+#id15 { left: 75%; top: 75%; }
+
+div.puzzle-piece {
+    position: absolute;
+    display: inline-block;
+    border: 1px solid white;
+    width: 97px;
+    height: 97px;
+    float: left;
+    background-image: url("background.png");
+    background-size: 400px 400px;
+    transition: all 0.2s;
+}
+
+#slider button {
+    width: 180px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    background: #4A83EF;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+#slider button:active {
+    background-color: blue;
+}
+#slider button:hover {
+    transform: scale(1.03,1.03);
+}

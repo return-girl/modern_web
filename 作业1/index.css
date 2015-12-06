@@ -1,0 +1,65 @@
+h1{
+	text-align: center;
+	font-family: "Century Gothic", Futura, Verdana, sans-serif;
+	font-size: 30pt;
+}
+li strong {
+    font-style: italic;
+    font-weight: normal;
+  }
+h1.center {
+	text-align: center;
+}
+p{
+	font-size: 15pt;
+	font-weight: lighter;
+	text-align: center;
+}
+body
+	{
+		font-family: Georgia,Garamond,sans-serif;
+		font-weight: 300;
+		background: #FFFFE0;
+		color: #5d5d5d;
+	}
+#container {
+	width: 100%;
+}
+#photo {
+	float: left;
+	width: 60%;
+}
+#content {
+	float: right;
+	width: 40%;
+}
+#container1 {
+	width: 100%;
+}
+#photo1 {
+	float: left;
+	width: 60%;
+}
+#content1 {
+	float: right;
+	width: 40%;
+}
+#container2 {
+	width: 100%;
+}
+#photo2 {
+	float: left;
+	width: 60%;
+}
+#content2 {
+	float: right;
+	width: 40%;
+}
+p {
+	text-align: left;
+}
+
+hr.hr0 {
+	
+	width: 30%;
+}

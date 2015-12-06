@@ -1,0 +1,9 @@
+footer {
+	color: green;
+}
+footer:hover {
+	color: fuchsia;
+    transition:all 10s ease-in-out;
+    transform:translate(300px);
+    
+}

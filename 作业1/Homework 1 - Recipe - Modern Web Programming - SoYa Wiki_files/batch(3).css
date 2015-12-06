@@ -1,0 +1,33 @@
+#comments-section .quick-comment-container.add {
+	border-top-color: currentColor; border-top-width: 0px; border-top-style: none;
+}
+.quick-comment-prompt {
+	color: rgb(153, 153, 153); padding-top: 5px; margin-left: 18px;
+}
+.quick-comment-loading-container {
+	color: rgb(153, 153, 153); padding-top: 5px; margin-left: 18px;
+}
+.quick-comment-loading-container {
+	padding-left: 5px;
+}
+.quick-comment-error-box {
+	width: 100%; margin-left: 18px;
+}
+.quick-comment-prompt {
+	border: 1px solid rgb(221, 221, 221); border-image: none; width: 100%; height: 42px;
+}
+.quick-comment-prompt:active {
+	border: 1px solid rgb(102, 153, 204); border-image: none; color: rgb(102, 153, 204);
+}
+.quick-comment-prompt span {
+	padding-left: 5px;
+}
+.quick-comment-loading-container {
+	border: 1px solid rgb(187, 187, 187); border-image: none; width: 100%; height: 211px; display: none; background-color: rgb(240, 240, 240);
+}
+.quick-comment-loading-message {
+	background-position: 0.5em 50%; margin: 0px; color: rgb(153, 153, 153); padding-top: 5px; padding-left: 28px; display: none; background-image: url("/wiki/s/en_GB/3280/1/4.2.3/_/download/resources/com.atlassian.confluence.plugins.quickcomments:quick-comment-initial/../../../images/icons/wait.gif"); background-repeat: no-repeat;
+}
+.quick-comment-vertical-spacer {
+	left: -69px; width: 1px; height: 262px; float: left; display: none; position: relative;
+}

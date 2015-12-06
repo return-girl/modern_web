@@ -1,0 +1,246 @@
+html {
+	height: 100%;
+}
+body {
+	height: 100%;
+}
+body {
+	font-family: Arial,Helvetica,FreeSans,sans-serif;
+}
+#full-height-container {
+	width: 100%; height: 100%; position: relative; background-color: rgb(247, 247, 247);
+}
+.active-preview#full-height-container {
+	background-color: rgb(255, 255, 255);
+}
+#header {
+	margin: 0px; padding: 0px 0.75em; line-height: 2; min-height: 2em;
+}
+#websudo {
+	margin: 0px; padding: 0px 10px; line-height: 2; min-height: 2em;
+}
+.email {
+	margin: 10px;
+}
+#content-title-div img.logo {
+	margin-bottom: 0.3em; float: left; max-height: 2.5em;
+}
+h1.pagetitle img {
+	margin-bottom: 0.3em; float: left; max-height: 2.5em;
+}
+h1.pagetitle img.custom {
+	height: auto;
+}
+h1 span.title-text {
+	display: table;
+}
+.editable-title {
+	margin: 0px 10px 0px 58px;
+}
+#main {
+	padding: 1.25em; background-color: rgb(255, 255, 255);
+}
+.theme-default #main {
+	margin: 0.75em; border-radius: 0.31em; border: 1px solid rgb(187, 187, 187); border-image: none; min-height: 85%; -moz-border-radius: .3125em; -webkit-border-radius: .3125em;
+}
+.theme-default #navigation {
+	float: right;
+}
+.wiki-content .table-wrap {
+	overflow: auto;
+}
+.image-wrap {
+	display: inline-block; -ms-overflow-x: auto; -ms-overflow-y: hidden; max-width: 100%;
+}
+.content-preview #main {
+	padding-bottom: 10px;
+}
+#content {
+	clear: left;
+}
+.space#content {
+	margin-top: 2.6em;
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:focus {
+	text-decoration: underline;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+	text-decoration: underline;
+}
+#navigation {
+	display: inline;
+}
+.page-actions {
+	padding: 5px; border: 1px solid rgb(204, 204, 204); border-image: none; margin-left: 10px; float: right;
+}
+.page-metadata {
+	margin: 10px 0px; color: rgb(102, 102, 102); font-size: 0.9em;
+}
+.page-metadata a:link {
+	color: rgb(102, 102, 102); font-style: normal; text-decoration: underline;
+}
+.page-metadata a:active {
+	color: rgb(102, 102, 102); font-style: normal; text-decoration: underline;
+}
+.page-metadata a:hover {
+	color: rgb(102, 102, 102); font-style: normal; text-decoration: underline;
+}
+.page-metadata a:visited {
+	color: rgb(102, 102, 102); font-style: normal; text-decoration: underline;
+}
+.section-header {
+	padding: 2px 0px; margin-bottom: 5px;
+}
+h2.section-title {
+	padding: 0px; font-size: 12pt; font-weight: bold; margin-top: 20px; display: inline;
+}
+#sidebar {
+	width: 16em; clear: right; margin-left: 10px; float: right;
+}
+.sidebar {
+	width: 16em; clear: right; margin-left: 10px; float: right;
+}
+#space-blog-search-query {
+	width: 21.5em;
+}
+#blog-sidebar {
+	width: 22em; margin-top: 2em; margin-bottom: 0.5em;
+}
+.has-sidebar .space#content {
+	margin-right: 17em;
+}
+.has-sidebar .edit#content form.markup {
+	margin-right: 17em;
+}
+.has-sidebar .wiki-content {
+	margin-right: 17em;
+}
+.has-sidebar.active-wikimarkup .errorBox {
+	margin-right: 17em;
+}
+.has-blog-sidebar .space#content {
+	margin-right: 24em;
+}
+.has-blog-sidebar .edit#content form.markup {
+	margin-right: 24em;
+}
+.has-blog-sidebar .wiki-content {
+	margin-right: 24em;
+}
+.blog-post-listing .wiki-content {
+	margin-right: 0px;
+}
+.has-blog-sidebar .blogpost-view .wiki-content .wiki-content {
+	margin-right: 0px;
+}
+.has-sidebar .wiki-content .wiki-content {
+	margin-right: 0px;
+}
+.has-blog-sidebar .wiki-content .wiki-content {
+	margin-right: 0px;
+}
+.has-blog-sidebar .comment-content.wiki-content {
+	margin-right: 0px;
+}
+.active-richtext .create-page#content {
+	margin-right: 0px !important;
+}
+.active-preview .create-page#content {
+	margin-right: 0px !important;
+}
+.contenteditor .active-preview #main-header {
+	padding: 20px 20px 0px;
+}
+.sidebar-content {
+	margin: 10px 0px 0px 1em;
+}
+.blogcalendar {
+	width: 16em;
+}
+.blogcalendar th a.calendarhead {
+	font-size: 1em;
+}
+.blogcalendar th.calendarhead {
+	font-size: 1em;
+}
+.blogcalendar td {
+	font-size: 0.85em;
+}
+.blogcalendar th {
+	font-size: 0.85em;
+}
+.tabnav .tabs a {
+	border-width: 1px 1px medium; border-style: solid solid none; margin: 5px 3px 0px 0px; padding: 5px 5px 4px; text-decoration: none; border-bottom-color: currentColor; float: left; display: block;
+}
+.tabnav .tabs a.current {
+	background: white; color: black; border-bottom-color: white; border-bottom-width: 1px; border-bottom-style: solid;
+}
+.tabnav .tabs a.current:link {
+	color: black;
+}
+.tabnav .tabs a.current:visited {
+	color: black;
+}
+.tabnav .tabs a.current:hover {
+	background: white; color: black; border-bottom-color: white; border-bottom-width: 1px; border-bottom-style: solid;
+}
+.tabnav {
+	margin: 0px; padding: 0px; width: 100%; font-size: 10pt; font-weight: bold; border-bottom-width: 1px; border-bottom-style: solid; float: left; display: inline; list-style-position: outside;
+}
+.comment .tabnav {
+	margin: 0px; padding: 0px; width: 100%; font-size: 10pt; font-weight: bold; border-bottom-width: 1px; border-bottom-style: solid; float: left; display: inline; list-style-position: outside;
+}
+.after-tabnav {
+	clear: both;
+}
+.tabnav li.tabs {
+	list-style: none; margin: 0px 0px -1px 10px; float: left; display: block;
+}
+.dashboard {
+	clear: left;
+}
+#footer {
+	background: none; width: 100%;
+}
+#login-language {
+	text-align: center; padding-top: 10px; font-size: 11px;
+}
+#login-language a {
+	color: rgb(102, 102, 102); padding-left: 10px; text-decoration: none;
+}
+#poweredby {
+	font-size: 11px;
+}
+#poweredby a {
+	font-size: 11px;
+}
+.quick-search-submit {
+	display: none;
+}
+i.remove-control {
+	display: none;
+}
+body.popup-window #footer {
+	display: none;
+}
+* html #full-height-container {
+	height: 100%; background-color: rgb(240, 240, 240);
+}
+* html #main {
+	height: 88%; padding-bottom: 1em;
+}
+* html #footer {
+	position: relative;
+}
+* html .popup-window #full-height-container {
+	background-color: rgb(255, 255, 255);
+}

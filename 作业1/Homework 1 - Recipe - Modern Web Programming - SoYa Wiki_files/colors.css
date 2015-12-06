@@ -1,0 +1,630 @@
+h1 {
+	color: rgb(0, 0, 0);
+}
+h2 {
+	color: rgb(0, 0, 0);
+}
+h3 {
+	color: rgb(0, 0, 0);
+}
+h4 {
+	color: rgb(0, 0, 0);
+}
+h5 {
+	color: rgb(0, 0, 0);
+}
+h6 {
+	color: rgb(0, 0, 0);
+}
+.wiki-content h1 {
+	color: rgb(0, 0, 0);
+}
+.wiki-content h2 {
+	color: rgb(0, 0, 0);
+}
+.wiki-content h3 {
+	color: rgb(0, 0, 0);
+}
+.wiki-content h4 {
+	color: rgb(0, 0, 0);
+}
+.wiki-content h5 {
+	color: rgb(0, 0, 0);
+}
+.wiki-content h6 {
+	color: rgb(0, 0, 0);
+}
+.pagetitle {
+	color: rgb(0, 0, 0);
+}
+.steptitle {
+	color: rgb(0, 0, 0);
+}
+.substeptitle {
+	color: rgb(0, 0, 0);
+}
+.formtitle {
+	color: rgb(0, 0, 0);
+}
+table.confluenceTable td.confluenceTd.highlight {
+	color: rgb(0, 0, 0);
+}
+table.confluenceTable td.confluenceTd.highlight > p {
+	color: rgb(0, 0, 0);
+}
+table.confluenceTable th.confluenceTh {
+	color: rgb(0, 0, 0);
+}
+table.confluenceTable th.confluenceTh > p {
+	color: rgb(0, 0, 0);
+}
+table.admin th {
+	color: rgb(0, 0, 0);
+}
+.form-element-large {
+	color: rgb(0, 0, 0);
+}
+.form-element-small {
+	color: rgb(0, 0, 0);
+}
+#toolbar #format-dropdown .format-h1 a {
+	color: rgb(0, 0, 0);
+}
+#toolbar #format-dropdown .format-h2 a {
+	color: rgb(0, 0, 0);
+}
+#toolbar #format-dropdown .format-h3 a {
+	color: rgb(0, 0, 0);
+}
+#toolbar #format-dropdown .format-h4 a {
+	color: rgb(0, 0, 0);
+}
+#toolbar #format-dropdown .format-h5 a {
+	color: rgb(0, 0, 0);
+}
+#toolbar #format-dropdown .format-h6 a {
+	color: rgb(0, 0, 0);
+}
+#format-dropdown .mce_formatPreview.mce_blockquote a {
+	border-left-color: rgb(102, 153, 204);
+}
+.wiki-content h1 {
+	border-bottom-color: rgb(102, 153, 204);
+}
+.wiki-content h2 {
+	border-bottom-color: rgb(102, 153, 204);
+}
+.wiki-content-preview {
+	border-right-color: rgb(102, 153, 204); border-left-color: rgb(102, 153, 204);
+}
+.pageSectionHeader {
+	border-bottom-color: rgb(102, 153, 204);
+}
+.panel {
+	border-color: rgb(102, 153, 204);
+}
+.panelHeader {
+	border-bottom-color: rgb(102, 153, 204);
+}
+.menuheading {
+	border-bottom-color: rgb(102, 153, 204);
+}
+.pageheader {
+	border-bottom-color: rgb(102, 153, 204);
+}
+.sectionbottom {
+	border-bottom-color: rgb(102, 153, 204);
+}
+.topRow {
+	border-top-color: rgb(102, 153, 204);
+}
+.tabletitle {
+	border-bottom-color: rgb(102, 153, 204);
+}
+.pageSectionHeader {
+	border-bottom-color: rgb(102, 153, 204);
+}
+a:link {
+	color: rgb(50, 108, 166);
+}
+a:visited {
+	color: rgb(50, 108, 166);
+}
+a:focus {
+	color: rgb(50, 108, 166);
+}
+a:hover {
+	color: rgb(50, 108, 166);
+}
+a:active {
+	color: rgb(50, 108, 166);
+}
+a.blogHeading {
+	color: rgb(50, 108, 166);
+}
+.wiki-content a {
+	color: rgb(50, 108, 166);
+}
+.wiki-content a:link {
+	color: rgb(50, 108, 166);
+}
+.wiki-content a:visited {
+	color: rgb(50, 108, 166);
+}
+.wiki-content a:focus {
+	color: rgb(50, 108, 166);
+}
+.wiki-content a:hover {
+	color: rgb(50, 108, 166);
+}
+.wiki-content a:active {
+	color: rgb(50, 108, 166);
+}
+.createlink {
+	color: rgb(109, 24, 6); text-decoration: underline;
+}
+a.createlink {
+	color: rgb(109, 24, 6); text-decoration: underline;
+}
+a.createlink:link {
+	color: rgb(109, 24, 6); text-decoration: underline;
+}
+a.createlink:visited {
+	color: rgb(109, 24, 6); text-decoration: underline;
+}
+a.createlink:active {
+	color: rgb(109, 24, 6); text-decoration: underline;
+}
+a.createlink:hover {
+	color: rgb(109, 24, 6); text-decoration: underline;
+}
+.unresolved {
+	color: rgb(130, 130, 130); text-decoration: underline;
+}
+a.unresolved {
+	color: rgb(130, 130, 130); text-decoration: underline;
+}
+a.unresolved:link {
+	color: rgb(130, 130, 130); text-decoration: underline;
+}
+a.unresolved:visited {
+	color: rgb(130, 130, 130); text-decoration: underline;
+}
+a.unresolved:active {
+	color: rgb(130, 130, 130); text-decoration: underline;
+}
+a.unresolved:hover {
+	color: rgb(130, 130, 130); text-decoration: underline;
+}
+.not-permitted {
+	color: rgb(204, 0, 0);
+}
+a.not-permitted {
+	color: rgb(204, 0, 0);
+}
+a.not-permitted:link {
+	color: rgb(204, 0, 0);
+}
+a.not-permitted:visited {
+	color: rgb(204, 0, 0);
+}
+a.not-permitted:hover {
+	color: rgb(204, 0, 0);
+}
+a.not-permitted:active {
+	color: rgb(204, 0, 0);
+}
+.grey {
+	color: rgb(102, 102, 102);
+}
+a.grey {
+	color: rgb(102, 102, 102);
+}
+a.grey:link {
+	color: rgb(102, 102, 102);
+}
+a.grey:visited {
+	color: rgb(102, 102, 102);
+}
+a.grey:hover {
+	color: rgb(102, 102, 102);
+}
+a.grey:active {
+	color: rgb(102, 102, 102);
+}
+.wiki-content#tinymce a {
+	color: rgb(50, 108, 166) !important;
+}
+.wiki-content#tinymce a:link {
+	color: rgb(50, 108, 166) !important;
+}
+.wiki-content#tinymce a:visited {
+	color: rgb(50, 108, 166) !important;
+}
+.wiki-content#tinymce a:focus {
+	color: rgb(50, 108, 166) !important;
+}
+.wiki-content#tinymce a:hover {
+	color: rgb(50, 108, 166) !important;
+}
+.wiki-content#tinymce a:active {
+	color: rgb(50, 108, 166) !important;
+}
+.wiki-content#tinymce a.createlink {
+	color: rgb(109, 24, 6) !important;
+}
+.wiki-content#tinymce a.unresolved {
+	color: rgb(130, 130, 130) !important;
+}
+.wiki-content#tinymce a.not-permitted {
+	color: rgb(204, 0, 0) !important;
+}
+h1 a:link {
+	color: rgb(50, 108, 166); border-bottom-color: rgb(0, 0, 0);
+}
+h1 a:visited {
+	color: rgb(50, 108, 166); border-bottom-color: rgb(0, 0, 0);
+}
+h1 a:focus {
+	color: rgb(50, 108, 166); border-bottom-color: rgb(0, 0, 0);
+}
+h1 a:hover {
+	color: rgb(50, 108, 166); border-bottom-color: rgb(0, 0, 0);
+}
+h1 a:active {
+	color: rgb(50, 108, 166); border-bottom-color: rgb(0, 0, 0);
+}
+.spacenametitle-printable {
+	color: rgb(153, 153, 153);
+}
+.spacenametitle-printable a {
+	color: rgb(153, 153, 153);
+}
+.spacenametitle-printable a:visited {
+	color: rgb(153, 153, 153);
+}
+.tableview th {
+	color: rgb(0, 0, 0); border-bottom-color: rgb(102, 153, 204);
+}
+blockquote {
+	border-left-color: rgb(102, 153, 204);
+}
+.navBackgroundBox {
+	background: rgb(102, 153, 204);
+}
+.previewBoxTop {
+	border-color: rgb(102, 153, 204);
+}
+.previewContent {
+	border-color: rgb(102, 153, 204);
+}
+.previewBoxBottom {
+	border-color: rgb(102, 153, 204);
+}
+.functionbox {
+	border-color: rgb(102, 153, 204);
+}
+.smalltext-blue {
+	color: rgb(102, 153, 204);
+}
+.tabnav {
+	border-bottom-color: rgb(102, 153, 204);
+}
+.comment .tabnav {
+	border-bottom-color: rgb(102, 153, 204);
+}
+ul.tabnav {
+	border-bottom-color: rgb(102, 153, 204);
+}
+.tabnav .tabs a {
+	background: rgb(102, 153, 204); border-color: rgb(102, 153, 204);
+}
+.tabnav .tabs a:link {
+	color: rgb(255, 255, 255);
+}
+.tabnav .tabs a:visited {
+	color: rgb(255, 255, 255);
+}
+.tabnav .tabs a:hover {
+	background: rgb(0, 51, 102); border-color: rgb(0, 51, 102); color: rgb(255, 255, 255);
+}
+#squaretab a {
+	border-color: rgb(102, 153, 204);
+}
+#squaretab a:link {
+	background-color: rgb(102, 153, 204);
+}
+#squaretab a:visited {
+	background-color: rgb(102, 153, 204);
+}
+#squaretab a:hover {
+	border-color: rgb(0, 51, 102); color: rgb(255, 255, 255); background-color: rgb(0, 51, 102);
+}
+table.blogcalendar {
+	border-color: rgb(102, 153, 204);
+}
+.blogcalendar th.calendarhead {
+	color: rgb(255, 255, 255); background-color: rgb(102, 153, 204);
+}
+a.calendarhead {
+	color: rgb(255, 255, 255); background-color: rgb(102, 153, 204);
+}
+a.calendarhead:link {
+	color: rgb(255, 255, 255); background-color: rgb(102, 153, 204);
+}
+a.calendarhead:visited {
+	color: rgb(255, 255, 255); background-color: rgb(102, 153, 204);
+}
+a.calendarhead:hover {
+	color: rgb(255, 255, 255); background-color: rgb(102, 153, 204);
+}
+.searchGroupHeading {
+	color: rgb(255, 255, 255); background-color: rgb(102, 153, 204);
+}
+.permissionTab {
+	background: rgb(102, 153, 204); color: rgb(255, 255, 255);
+}
+.permissionSuperTab {
+	background: rgb(0, 51, 102); color: rgb(255, 255, 255);
+}
+.comment-header .author .author-lozenge {
+	color: rgb(255, 255, 255); background-color: rgb(51, 102, 153);
+}
+.topBar {
+	background-color: rgb(0, 51, 102);
+}
+.basicPanelContainer {
+	border-color: rgb(102, 153, 204);
+}
+.greynavbar {
+	border-top-color: rgb(102, 153, 204);
+}
+div.license-personal {
+	color: rgb(255, 255, 255); background-color: rgb(0, 51, 102);
+}
+div.license-personal a {
+	color: rgb(255, 255, 255);
+}
+#header {
+	background-color: rgb(0, 51, 102);
+}
+#header a {
+	color: rgb(255, 255, 255);
+}
+#breadcrumbs {
+	color: rgb(255, 255, 255);
+}
+.breadcrumbs {
+	border-color: rgb(102, 153, 204);
+}
+#navigation {
+	border-bottom-color: rgb(102, 153, 204);
+}
+#tab-navigation {
+	border-bottom-color: rgb(102, 153, 204);
+}
+.tab-navigation .tab a {
+	border: 1px solid rgb(102, 153, 204); border-image: none; color: rgb(255, 255, 255); background-color: rgb(102, 153, 204);
+}
+.tab-navigation .tab a:hover {
+	color: rgb(255, 255, 255); border-bottom-color: rgb(0, 51, 102); background-color: rgb(0, 51, 102);
+}
+.tabletitle {
+	color: rgb(0, 0, 0);
+}
+.heading-text-color {
+	color: rgb(0, 0, 0);
+}
+ol.autocompleter li.focused {
+	background: rgb(102, 153, 204); color: rgb(255, 255, 255);
+}
+.diff-navigation a.version-navigation {
+	background-color: rgb(221, 221, 221);
+}
+.diff-navigation a.version-navigation:hover {
+	background-color: rgb(187, 187, 187);
+}
+.diff-navigation a.version-navigation.all:hover {
+	background-color: transparent;
+}
+.tasklist .task.complete .signoff {
+	color: rgb(0, 128, 4);
+}
+.tasklist .task.incomplete .signoff {
+	color: rgb(204, 0, 0);
+}
+.aui-tabs ul.tabs-menu li.menu-item a {
+	color: rgb(50, 108, 166);
+}
+#com-atlassian-confluence .aui-dd-parent .aui-dropdown .dropdown-item a {
+	color: rgb(83, 83, 83);
+}
+.ajs-menu-bar li.ajs-menu-item .ajs-drop-down a {
+	color: rgb(83, 83, 83);
+}
+#header .ajs-menu-bar li.ajs-menu-item a.trigger {
+	color: rgb(255, 255, 255);
+}
+#header .ajs-menu-bar li.ajs-menu-item .ajs-drop-down a {
+	color: rgb(50, 108, 166);
+}
+#com-atlassian-confluence .aui-dd-parent a.perms-dropdown-trigger:hover {
+	color: rgb(255, 255, 255); background-color: rgb(102, 153, 204);
+}
+#com-atlassian-confluence .aui-dd-parent a.perms-dropdown-trigger:focus {
+	color: rgb(255, 255, 255); background-color: rgb(102, 153, 204);
+}
+#com-atlassian-confluence .aui-dd-parent .aui-dropdown .dropdown-item.active a {
+	color: rgb(255, 255, 255); background-color: rgb(102, 153, 204);
+}
+.menu-section-list li.active a {
+	color: rgb(255, 255, 255); background-color: rgb(102, 153, 204);
+}
+.menu-section-list li.active a:hover {
+	color: rgb(255, 255, 255); background-color: rgb(102, 153, 204);
+}
+#navigation .ajs-menu-bar .ajs-button a:hover {
+	color: rgb(255, 255, 255); background-color: rgb(102, 153, 204);
+}
+#navigation .ajs-menu-bar .ajs-menu-item.hover a {
+	color: rgb(255, 255, 255); background-color: rgb(102, 153, 204);
+}
+.ajs-menu-bar .ajs-menu-item li.active a {
+	color: rgb(255, 255, 255); background-color: rgb(102, 153, 204);
+}
+.aui-dd-parent .aui-dropdown li.active {
+	color: rgb(255, 255, 255); background-color: rgb(102, 153, 204);
+}
+.aui-dd-parent .aui-dropdown li.active span {
+	color: rgb(255, 255, 255); background-color: rgb(102, 153, 204);
+}
+.aui-dd-parent .aui-dropdown a:focus span {
+	color: rgb(255, 255, 255); background-color: rgb(102, 153, 204);
+}
+.ajs-menu-bar .ajs-menu-item.opened .ajs-drop-down li.active a {
+	color: rgb(255, 255, 255); background-color: rgb(102, 153, 204);
+}
+#navigation .ajs-menu-bar li.ajs-button a.active {
+	color: rgb(255, 255, 255); background-color: rgb(102, 153, 204);
+}
+#header .ajs-menu-bar li.ajs-menu-item.opened .ajs-drop-down li.active a {
+	color: rgb(255, 255, 255); background-color: rgb(102, 153, 204);
+}
+.ajs-content-hover .popup-follow a:hover {
+	color: rgb(255, 255, 255); background-color: rgb(102, 153, 204);
+}
+#header .ajs-menu-bar li.ajs-menu-item.opened {
+	border-color: rgb(51, 102, 153); background-color: rgb(51, 102, 153);
+}
+#header .ajs-menu-bar li.ajs-menu-item.hover {
+	border-color: rgb(51, 102, 153); background-color: rgb(51, 102, 153);
+}
+#header .ajs-menu-bar li.ajs-menu-item.opened a.trigger {
+	border-color: rgb(51, 102, 153); background-color: rgb(51, 102, 153);
+}
+.ajs-menu-bar .ajs-menu-item.opened a.trigger {
+	background-color: rgb(102, 153, 204);
+}
+#header .ajs-menu-bar .ajs-drop-down {
+	border-color: rgb(0, 51, 102);
+}
+#header .ajs-menu-bar .ajs-drop-down li.separator {
+	border-top-color: rgb(0, 51, 102);
+}
+.confluence-label {
+	background-color: rgb(208, 223, 238);
+}
+.confluence-label:link {
+	color: rgb(0, 51, 102);
+}
+.confluence-label:visited {
+	color: rgb(0, 51, 102);
+}
+.confluence-label:hover {
+	border-color: rgb(50, 108, 166);
+}
+.tag-cloud {
+	background: none;
+}
+.tag-cloud .confluence-label {
+	background: none;
+}
+.tag-cloud .confluence-label:link {
+	color: rgb(50, 108, 166);
+}
+.tag-cloud .confluence-label:visited {
+	color: rgb(50, 108, 166);
+}
+.tag-cloud .confluence-label:hover {
+	color: rgb(0, 51, 102); background-color: rgb(208, 223, 238);
+}
+.tag-reference-section > h2 {
+	
+}
+.diff-tag-added {
+	background-color: rgb(147, 196, 159);
+}
+.diff-tag-removed {
+	background-color: rgb(223, 152, 152);
+}
+.diff-html-added {
+	border-color: rgb(147, 196, 159); background-color: rgb(221, 250, 222);
+}
+.diff-html-removed {
+	border-color: rgb(223, 152, 152); background-color: rgb(255, 231, 231);
+}
+.diff-html-changed {
+	border-color: rgb(158, 182, 212); background-color: rgb(214, 240, 255);
+}
+.diff-html-added img {
+	border-color: rgb(147, 196, 159);
+}
+.diff-html-removed img {
+	border-color: rgb(223, 152, 152);
+}
+.diff-html-changed img {
+	border-color: rgb(158, 182, 212);
+}
+.diff-image-overlay {
+	color: rgb(83, 83, 83);
+}
+.wiki-content .diff-image-overlay {
+	color: rgb(83, 83, 83);
+}
+.diff-image-overlay.diff-removed-image {
+	background-color: rgb(255, 231, 231);
+}
+.diff-image-overlay.diff-added-image {
+	background-color: rgb(221, 250, 222);
+}
+.diff-image-overlay.diff-changed-image {
+	background-color: rgb(214, 240, 255);
+}
+.diff-macro {
+	border-color: rgb(221, 221, 221); background-color: rgb(240, 240, 240);
+}
+.diff-macro .diff-macro-title {
+	background-color: transparent;
+}
+.diff-macro .diff-macro-properties {
+	border-color: rgb(221, 221, 221);
+}
+.diff-macro .diff-macro-properties {
+	background: rgba(255, 255, 255, 0.5);
+}
+.diff-macro .diff-macro-properties th {
+	background: rgba(255, 255, 255, 0.5);
+}
+.diff-macro .diff-macro-properties td {
+	background: rgba(255, 255, 255, 0.5);
+}
+.diff-macro .diff-macro-body {
+	border: 1px solid rgb(221, 221, 221); border-image: none; background-color: rgb(255, 255, 255);
+}
+.diff-macro.diff-html-added {
+	border-color: rgb(147, 196, 159); background-color: rgb(221, 250, 222);
+}
+.diff-macro.diff-html-added .diff-macro-body {
+	border-color: rgb(147, 196, 159); background-color: rgb(221, 250, 222);
+}
+.diff-macro.diff-html-removed {
+	border-color: rgb(223, 152, 152); background-color: rgb(255, 231, 231);
+}
+.diff-macro.diff-html-removed .diff-macro-body {
+	border-color: rgb(223, 152, 152); background-color: rgb(255, 231, 231);
+}
+.diff-macro.diff-html-changed {
+	border-color: rgb(158, 182, 212); background-color: rgb(214, 240, 255);
+}
+.diff-macro.diff-html-changed .diff-macro-body {
+	border-color: rgb(158, 182, 212); background-color: rgb(214, 240, 255);
+}
+.diff-macro.diff-html-added .diff-macro-body {
+	background-color: rgb(255, 255, 255);
+}
+.diff-macro.diff-html-removed .diff-macro-body {
+	background-color: rgb(255, 255, 255);
+}
+.diff-macro.diff-html-changed .diff-macro-body {
+	background-color: rgb(255, 255, 255);
+}
